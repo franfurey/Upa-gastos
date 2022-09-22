@@ -1,0 +1,46 @@
+/* INDEX */
+
+.mainSectionArticle {
+  padding: 1%;
+  background-color: aliceblue;
+  border-radius: 10px 100px / 120px;
+}
+
+.upaIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: left;
+  align-items: left;
+}
+
+.indexCenter {
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  align-content: center;
+  margin: 1%;
+}
+
+.mainBlack__ {
+  color: aliceblue;
+  background-image: url(https://images5.alphacoders.com/542/542019.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.sectionMain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: space-around;
+  border-radius: 10px 100px / 120px;
+  align-content: center;
+  gap: 2%;
+  justify-items: stretch;
+  padding: 1%;
+}

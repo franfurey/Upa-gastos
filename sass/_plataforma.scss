@@ -1,0 +1,59 @@
+/* PLATAFORMA */
+
+.plataformaCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.articleA {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+.articleB {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  color: aliceblue;
+  background-image: url(https://images5.alphacoders.com/542/542019.jpg);
+}
+
+.mainPlataforma {
+  display: flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.divPlataforma {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.efecto {
+  transition: all 0.7s;
+}
+.efecto:hover {
+  transform: translate(20px, 20px);
+}
