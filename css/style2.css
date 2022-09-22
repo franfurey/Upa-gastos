@@ -1,3 +1,14 @@
+.ula {
+  background-color: #ff5a77;
+}
+.ula:hover {
+  background-color: #333333;
+}
+
+.ula2 {
+  background-color: #020101;
+}
+
 /* INDEX */
 .mainSectionArticle {
   padding: 1%;

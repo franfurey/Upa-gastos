@@ -1,0 +1,13 @@
+$c-principal: pink;
+$c-secundario: black;
+
+.ula {
+  background-color: darken($c-principal, 20%);
+  &:hover {
+    background-color: lighten($c-secundario, 20%);
+  }
+}
+
+.ula2 {
+  background-color: mix($c-principal, $c-secundario, 0.7);
+}
