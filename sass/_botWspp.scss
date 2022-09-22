@@ -1,13 +1,12 @@
 /* BOTWSPP */
 
-.pBot {
-  font-size: 80%;
-}
-
 .mainWspp {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   align-content: flex-start;
   justify-content: space-around;
+  .pBot {
+    font-size: 80%;
+  }
 }
