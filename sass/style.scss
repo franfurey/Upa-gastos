@@ -1,7 +1,11 @@
 // VARIABLES
 $bodycolor: rgb(9, 6, 49);
+$letterColor: aliceblue;
+$fontFamily: sans-serif;
 
 // IMPORT
+@import "listas";
+@import "maps";
 @import "index";
 @import "plataforma";
 @import "botWspp";
@@ -19,7 +23,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: $fontFamily;
 }
 
 h1 {
@@ -35,7 +39,7 @@ h3::first-letter {
 }
 
 h2::selection {
-  color: aliceblue;
+  color: $letterColor;
   background-color: #623aa2;
 }
 
@@ -43,7 +47,7 @@ p,
 li {
   font-size: 120%;
   text-align: center;
-  font-family: sans-serif;
+  font-family: $fontFamily;
 }
 
 iframe {
@@ -61,8 +65,8 @@ iframe {
 }
 
 a {
-  color: aliceblue;
-  font-family: sans-serif;
+  color: $letterColor;
+  font-family: $fontFamily;
   &:hover {
     color: rgb(91, 72, 91);
   }
@@ -101,7 +105,7 @@ nav ul a {
 }
 
 main div div div h2 a {
-  color: aliceblue;
+  color: $letterColor;
   background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
   padding: 10px;
   font-size: 20 px;
@@ -170,7 +174,7 @@ footer {
   align-content: center;
   align-items: center;
   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-  color: aliceblue;
+  color: $letterColor;
   padding: 1%;
   list-style: none;
   div ul li a {
