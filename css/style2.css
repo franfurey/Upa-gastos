@@ -10,26 +10,19 @@
 }
 
 /* INDEX */
-.mainSectionArticle {
-  padding: 1%;
-  background-color: aliceblue;
-  border-radius: 10px 100px/120px;
-}
-
-.upaIndex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: left;
-  align-items: left;
-}
-
 .indexCenter {
   display: flex;
   flex-wrap: row;
   justify-content: center;
   align-content: center;
   margin: 1%;
+}
+.indexCenter .upaIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: left;
+  align-items: left;
 }
 
 .mainBlack__ {
@@ -53,6 +46,11 @@
   gap: 2%;
   justify-items: stretch;
   padding: 1%;
+}
+.sectionMain .mainSectionArticle {
+  padding: 1%;
+  background-color: aliceblue;
+  border-radius: 10px 100px/120px;
 }
 
 /* PLATAFORMA */
