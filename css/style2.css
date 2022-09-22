@@ -99,7 +99,6 @@
 .efecto {
   transition: all 0.7s;
 }
-
 .efecto:hover {
   transform: translate(20px, 20px);
 }
@@ -107,10 +106,6 @@
 /* BOTWSPP */
 .pBot {
   font-size: 80%;
-}
-
-header nav ul li {
-  display: inline-block;
 }
 
 .mainWspp {
@@ -240,19 +235,21 @@ h3 a {
   color: rgb(9, 6, 49);
 }
 
-header div {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  align-content: left;
-}
-
 header {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+header div {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+}
+header nav ul li {
+  display: inline-block;
 }
 
 nav ul a {

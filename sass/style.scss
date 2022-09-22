@@ -72,19 +72,21 @@ h3 a {
   color: $bodycolor;
 }
 
-header div {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  align-content: left;
-}
-
 header {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   align-content: center;
+  div {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+  }
+  nav ul li {
+    display: inline-block;
+  }
 }
 
 nav ul a {
@@ -186,6 +188,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
 @media only screen and (max-width: 768px) {
   header {
     flex-direction: column;

@@ -53,7 +53,7 @@
 
 .efecto {
   transition: all 0.7s;
-}
-.efecto:hover {
-  transform: translate(20px, 20px);
+  &:hover {
+    transform: translate(20px, 20px);
+  }
 }
