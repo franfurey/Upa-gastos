@@ -9,17 +9,24 @@
   background-color: #020101;
 }
 
-.prueba {
+.clasePrueba {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.claseImaginaria {
+  font-size: 20px;
+  margin: 80px;
+  background-color: black;
+  color: aliceblue;
 }
 
 .unaClase {
   width: 1000px;
 }
 
-.indexCenter {
+header, .indexCenter {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -241,13 +248,6 @@ h3 a {
   color: rgb(9, 6, 49);
 }
 
-header {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
 header div {
   display: flex;
   justify-content: left;

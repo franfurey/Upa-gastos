@@ -4,6 +4,18 @@
   align-items: center;
 }
 
-.prueba {
+.clasePrueba {
   @include pieDePag();
+}
+
+@mixin titulos($size, $color) {
+  font-size: $size;
+  //   padding: $size / 2;
+  margin: $size * 4;
+  background-color: $color;
+  color: aliceblue;
+}
+
+.claseImaginaria {
+  @include titulos(20px, black);
 }
