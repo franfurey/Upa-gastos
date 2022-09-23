@@ -1,0 +1,9 @@
+@mixin pieDePag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prueba {
+  @include pieDePag();
+}

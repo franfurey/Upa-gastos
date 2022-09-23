@@ -9,6 +9,16 @@
   background-color: #020101;
 }
 
+.prueba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unaClase {
+  width: 1000px;
+}
+
 .indexCenter {
   display: flex;
   flex-direction: row;
@@ -196,11 +206,6 @@ h2::first-letter {
 
 h3::first-letter {
   font-size: 110%;
-}
-
-h2::selection {
-  color: aliceblue;
-  background-color: #623aa2;
 }
 
 p,
