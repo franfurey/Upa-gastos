@@ -1,0 +1,2 @@
+Cambie todos los titulos por un titlo mas representativo. 
+Agregue a todas las fotos un alt para que tengan mejor representacion. 
