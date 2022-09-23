@@ -1,11 +1,7 @@
 /* PLATAFORMA */
 
 .plataformaCenter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  @extend %flexCol;
   padding: 3%;
 }
 

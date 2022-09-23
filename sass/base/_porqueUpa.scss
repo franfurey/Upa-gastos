@@ -1,24 +1,17 @@
 /* PORQUE UPA? */
 
 .articleC {
-  display: flex;
-  flex-wrap: column;
-  align-content: center;
-  align-items: center;
+  @extend %flexCol;
   flex-direction: row-reverse;
   margin: 2%;
   padding: 0.3%;
 }
 
 .porqueCenter {
-  display: flex;
+  @extend %flexCol;
   color: aliceblue;
   height: 3000%;
   max-height: 500%;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   padding-bottom: 30%;
   background-image: url(https://images3.alphacoders.com/585/thumb-1920-585616.png);
 }

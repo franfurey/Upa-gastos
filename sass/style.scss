@@ -2,14 +2,16 @@
 $fontFamily: sans-serif;
 
 // IMPORT
-@import "colores";
-@import "listas";
-@import "maps";
-@import "index";
-@import "plataforma";
-@import "botWspp";
-@import "porqueUpa";
-@import "precios";
+@import "./componentes/colores";
+@import "./componentes/operadores";
+@import "./componentes/extend";
+@import "./componentes/listas";
+@import "./componentes/maps";
+@import "./base/index";
+@import "./base/plataforma";
+@import "./base/botWspp";
+@import "./base/porqueUpa";
+@import "./base/precios";
 
 /* GENERAL */
 

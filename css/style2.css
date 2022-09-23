@@ -9,12 +9,24 @@
   background-color: #020101;
 }
 
-/* INDEX */
 .indexCenter {
   display: flex;
-  flex-wrap: row;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   align-content: center;
+}
+
+.porqueCenter, .articleC, .plataformaCenter, .mainBlack__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* INDEX */
+.indexCenter {
   margin: 1%;
 }
 .indexCenter .upaIndex {
@@ -28,11 +40,6 @@
 .mainBlack__ {
   color: aliceblue;
   background-image: url(https://images5.alphacoders.com/542/542019.jpg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   padding: 1%;
 }
 
@@ -55,11 +62,6 @@
 
 /* PLATAFORMA */
 .plataformaCenter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   padding: 3%;
 }
 
@@ -126,24 +128,15 @@
 
 /* PORQUE UPA? */
 .articleC {
-  display: flex;
-  flex-wrap: column;
-  align-content: center;
-  align-items: center;
   flex-direction: row-reverse;
   margin: 2%;
   padding: 0.3%;
 }
 
 .porqueCenter {
-  display: flex;
   color: aliceblue;
   height: 3000%;
   max-height: 500%;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   padding-bottom: 30%;
   background-image: url(https://images3.alphacoders.com/585/thumb-1920-585616.png);
 }

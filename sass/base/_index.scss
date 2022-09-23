@@ -1,10 +1,7 @@
 /* INDEX */
 
 .indexCenter {
-  display: flex;
-  flex-wrap: row;
-  justify-content: center;
-  align-content: center;
+  @extend %flexRow;
   margin: 1%;
   .upaIndex {
     display: flex;
@@ -18,11 +15,7 @@
 .mainBlack__ {
   color: aliceblue;
   background-image: url(https://images5.alphacoders.com/542/542019.jpg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  @extend %flexCol;
   padding: 1%;
 }
 
