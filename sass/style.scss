@@ -157,6 +157,7 @@ img {
   font-size: 30px;
   box-shadow: 1px 1px 2px #888;
   z-index: 1000;
+  background-image: "https://1000marcas.net/wp-content/uploads/2019/11/WhatsApp-logo-600x338.png";
 }
 
 /* FOOTER */
@@ -231,18 +232,21 @@ footer {
   }
 
   .img2 {
-    width: 500px;
+    width: 400px;
     height: 350px;
   }
 
   img {
-    width: 500px;
+    width: 400px;
     height: 350px;
   }
 
   #imgLogo {
     width: 50px;
     height: 50px;
+  }
+  .video {
+    height: 500px;
   }
 }
 
@@ -291,17 +295,21 @@ footer {
   }
 
   .img2 {
-    width: 500px;
+    width: 400px;
     height: 350px;
   }
 
   img {
-    width: 500px;
+    width: 400px;
     height: 350px;
   }
 
   #imgLogo {
     width: 50px;
     height: 50px;
+  }
+
+  .video {
+    height: 500px;
   }
 }
