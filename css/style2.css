@@ -202,6 +202,31 @@ header, .indexCenter {
   background-color: rgb(9, 6, 49);
 }
 
+.mb-3 {
+  display: block;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  height: 50%;
+  padding-left: 2%;
+}
+
+.col-auto {
+  display: block;
+  align-items: center;
+  align-content: center;
+  width: 20%;
+  height: 20%;
+  padding-left: 2%;
+}
+
+.formulario,
+.form-label {
+  display: block;
+  align-items: center;
+  align-content: center;
+}
+
 /* GENERAL */
 body {
   color: rgb(9, 6, 49);
