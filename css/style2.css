@@ -77,8 +77,8 @@ header, .indexCenter {
   border-radius: 10px 100px/120px;
 }
 
-.video {
-  height: 900px;
+div iframe {
+  height: 700px;
 }
 
 /* PLATAFORMA */
@@ -283,6 +283,7 @@ a:hover {
 
 h3 a {
   color: rgb(9, 6, 49);
+  text-decoration: none;
 }
 
 header div {
@@ -313,6 +314,7 @@ main div div div h2 a {
   font-size: 20 px;
   border-radius: 30px;
   transition: all 2s;
+  text-decoration: none;
 }
 
 div h2 a:hover {
@@ -380,6 +382,11 @@ footer {
   list-style: none;
 }
 footer div ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
   list-style: none;
 }
 
@@ -390,6 +397,7 @@ footer div ul li a {
   font-size: 20 px;
   margin: 20 px;
   border-radius: 30px;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
@@ -442,8 +450,11 @@ footer div ul li a {
     width: 50px;
     height: 50px;
   }
-  .video {
-    height: 500px;
+  div iframe {
+    height: 400px;
+  }
+  h2 {
+    padding: 5%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -495,8 +506,11 @@ footer div ul li a {
     width: 50px;
     height: 50px;
   }
-  .video {
-    height: 500px;
+  div iframe {
+    height: 400px;
+  }
+  h2 {
+    padding: 5%;
   }
 }
 

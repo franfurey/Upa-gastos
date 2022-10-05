@@ -71,6 +71,7 @@ a {
 
 h3 a {
   color: $bodycolor;
+  text-decoration: none;
 }
 
 header {
@@ -104,6 +105,7 @@ main div div div h2 a {
   font-size: 20 px;
   border-radius: 30px;
   transition: all 2s;
+  text-decoration: none;
 }
 
 div h2 a:hover {
@@ -172,8 +174,13 @@ footer {
   padding: 1%;
   list-style: none;
   div ul li a {
+    text-decoration: none;
     list-style: none;
   }
+}
+
+ul {
+  list-style: none;
 }
 
 #footerWsp {
@@ -183,6 +190,7 @@ footer {
   font-size: 20 px;
   margin: 20 px;
   border-radius: 30px;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
@@ -245,8 +253,12 @@ footer {
     width: 50px;
     height: 50px;
   }
-  .video {
-    height: 500px;
+
+  div iframe {
+    height: 400px;
+  }
+  h2 {
+    padding: 5%;
   }
 }
 
@@ -309,7 +321,10 @@ footer {
     height: 50px;
   }
 
-  .video {
-    height: 500px;
+  div iframe {
+    height: 400px;
+  }
+  h2 {
+    padding: 5%;
   }
 }
