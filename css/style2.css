@@ -323,34 +323,18 @@ div h2 a:hover {
 
 img {
   border-radius: 10px 100px/120px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 #imgLogo {
   border-radius: 10px 100px/120px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 #imgSin {
   border-radius: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 .img2 {
   border-radius: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 /* WSPP */
