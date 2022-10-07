@@ -342,20 +342,18 @@ img {
 }
 
 /* WSPP */
-.wspp {
+.bi-whatsapp {
+  background-color: #25d366;
   position: fixed;
   width: 60px;
   height: 60px;
   bottom: 40px;
   right: 40px;
-  background-color: #25d366;
-  color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   box-shadow: 1px 1px 2px #888;
   z-index: 1000;
-  background-image: "https://1000marcas.net/wp-content/uploads/2019/11/WhatsApp-logo-600x338.png";
 }
 
 /* FOOTER */
@@ -386,6 +384,19 @@ ul {
   margin: 20 px;
   border-radius: 30px;
   text-decoration: none;
+}
+
+.bi {
+  font-size: 250%;
+}
+
+.redes {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-content: center;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 /* MEDIA QUERIES */
